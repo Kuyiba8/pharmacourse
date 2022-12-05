@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="kuyiba.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="url" method="post">
+        <h2>register account</h2>
+        <div class="forms">
+            <div cclass="signin">
+                <h3 class="formin">please sign-in</h3>
+                <label for="username">your username: </label>
+                <input type="text" id="username" required><br><br>
+                <label for="password">password</label>
+                <input type="password" id="password" required><br><br>
+                <button>submit</button>
+
+            </div>
+            <div cclass="signup">
+                <h3 class="formup">please sign-up to register</h3>
+                <label for="name">your first name or surname: </label>
+                <input type="text" id="name" required><br><br>
+                <label for="name">your last name: </label>
+                <input type="text" id="name" required><br><br>
+                <label for="email">enter your email: </label>
+                <input type="text" id="email" required><br><br>
+                <label for="password">password</label>
+                <input type="password" id="password" required><br><br>
+                <label for="date">date of  birth: </label>
+                <input type="date" id="date" required>
+                    <label for="">Gender:</label> 
+                    <div class="">
+                        <label for="male">male</label>
+                        <input type="radio" name="gender" value="male" >
+                        <label for="female">female</label><br><br>
+                        <input type="radio" name="gender" value="female" > 
+                    </div>
+                <label for="phone">phone: </label>
+                <input type="phone" name="phone" id="phone" required><br><br>
+                <button>submit</button>
+                
+
+            </div>
+        </div>
+    </form>
+</body>
+</html>

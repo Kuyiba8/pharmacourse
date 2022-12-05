@@ -1,0 +1,441 @@
+/*###############   navbar  ##############*/
+
+nav{
+    width: 100%;
+    margin: 0px;
+}
+
+nav ul{
+    background-color: rgb(185, 17, 17);
+    overflow: hidden;
+    margin:0px;
+    padding:0px;
+    border-radius: 8px;
+}
+
+ul.topnav li{
+    list-style:none;
+    float:left;
+   /* background-color: dimgrey;*/
+}
+ul.topnav li.topnav-right{
+    float:right;
+    /*background-color: dimgrey;*/
+}
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding:14px;
+    color:aqua;
+}
+
+ul.topnav li a:hover{
+    background-color: #0080ff;
+    color:rgb(70, 65, 65);
+}
+
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+
+
+
+
+
+
+
+
+/*#################  styling the body ################*/
+
+body{
+    line-height: 1;
+    margin: 0px;
+}
+
+.container{
+    border-radius: 100px;
+    width:auto;
+    margin: 0px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-image: url("/img/library2.jpg");
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    /*align-items: center;*/
+    justify-content: space-around;
+}
+
+.row::after{
+    display: table;
+    clear:both;
+    content: "";
+}
+
+.first-column{
+    display: block;
+    font-size: 30px;
+    color:rgb(241, 238, 3);
+    text-shadow: 5px 2px 4px rgb(224, 16, 16);
+}
+h2.first-column{
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+h3.first-column{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+img{
+    border:none;
+    height: auto;
+    width: 600px;
+    border-radius: 150px;
+}
+
+/*############# section_introduction ################*/
+
+.courses_introduction{
+    background-color: darkgrey;
+    width:auto;
+    margin: 0px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 100px;
+}
+h3.pt{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    color:olive;
+}
+p.pt{
+    font-size: 18px;
+    text-align: center;
+    text-transform: lowercase;
+    color:rgb(245, 96, 10);
+}
+div.introduction{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+.text_intro{
+    color:white;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+p.text_intro_top{
+    text-transform: capitalize;
+
+}
+p.intro em{
+    font-size: 28px;
+    color:mediumvioletred;
+
+
+}
+
+img.chem_exp{
+    height: auto;
+    width: 180px;
+    border: none;
+
+}
+section div p.intro{
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*############  styling the forms  ############*/
+
+h2 {
+    text-align: center;
+    font-size: 28;
+    text-transform: uppercase;
+    
+}
+.forms {
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+div.forms input {
+    border: 1px solid green;
+    width:100%;
+    padding: 5px;
+
+}
+
+div.forms label {
+    font-weight: bold;
+    color: green;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*############## section_courses  ###############*/
+
+.courses{
+    background-color: khaki;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 100px;
+
+}
+.row li{
+    list-style:none;
+}
+
+
+
+.section_one{
+   
+    
+    
+
+}
+/*ul.section_one_head{
+      
+    border: none;
+    margin: 0px 5px 0px 5px;
+    padding: auto;
+}*/
+
+h2.outline{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color:indianred;
+}
+
+div.col_1 li h3.year_courses{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    color:chocolate;
+}
+
+.row li a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    text-decoration: none;
+    height: 16px;
+    text-align: center;
+    padding:14px;
+    color:rgb(8, 167, 167);
+    text-transform: capitalize;
+}
+
+.row li a:hover{
+    background-color: #0080ff;
+    color:rgb(196, 181, 181);
+}
+
+
+/*##########  other resourses   ############*/
+
+
+section.books{
+    background-color: honeydew;
+    border-radius: 100px;
+
+}
+section.books p.resourses{
+    border:none;
+    padding: 10px;
+    margin:0px;
+    text-align: center;
+    font-size: 30px;
+    color:rgb(250, 112, 19);
+}
+div.other_books_row{
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    padding:15px 0px;
+    text-align: center;
+}
+
+
+img.chem{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+}
+p a.other_download{
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    
+
+}
+p a.other_download:hover{
+    color: rgb(212, 83, 83);
+    background-color: rgb(46, 201, 46);
+    padding: 10px;
+}
+section.books p{
+    text-transform: capitalize;
+}
+
+
+
+
+/*##############   the footer   #############*/
+
+ul.foot{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+footer{
+    border-start-start-radius: 60px;
+    padding: 40px;
+    text-align: center;
+    font-size: 22px;
+    color:dimgray;
+    background-color:blanchedalmond;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*############# mobile #################*/
+@media screen and (min-width:200px) and (max-width:580px) {
+    ul.topnav li:not(:nth-child(1)){
+        display:none;
+     }
+    
+    ul.topnav li.dropdownIcon{
+        display:block;
+        float:right;
+    }
+
+    ul.topnav.responsive li.dropdownIcon{
+        position: absolute;
+        top:0;
+        right:0;
+
+    }
+
+    ul.topnav.responsive{
+        position: relative;
+
+    }
+
+    ul.topnav.responsive li{
+        display: inline;
+        float:none;
+    }
+
+    ul.topnav.responsive li a {
+        display:block;
+        text-align: left;
+    }
+
+    img{
+        height: 300px;
+        width: 300px;
+    }
+    img.chem_exp{
+        border: none;
+    }
+
+    h2.first-column{
+        text-align: center;
+    }
+
+    div.other_books_row{
+        border: none;
+        display: block;
+        justify-content: space-evenly;
+        padding:30px 0px;
+        margin-top: 20;
+        margin-bottom:20 ;
+        text-align: center;
+        
+    }
+        
+    .forms{
+        display: block;
+        align-items: center;
+        margin: 30px;
+    
+    }
+    .signin{
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
