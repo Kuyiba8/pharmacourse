@@ -186,7 +186,14 @@ div.forms label {
     color: green;
 
 }
+.gender-main{
+    display: flex;
+    justify-content: space-around;
+}
 
+.gender{
+    display: flex;
+}
 
 
 

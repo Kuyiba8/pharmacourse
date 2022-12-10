@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="kuyiba.css">
+    <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,13 +31,17 @@
                 <label for="password">password</label>
                 <input type="password" id="password" required><br><br>
                 <label for="date">date of  birth: </label>
-                <input type="date" id="date" required>
-                    <label for="">Gender:</label> 
-                    <div class="">
-                        <label for="male">male</label>
-                        <input type="radio" name="gender" value="male" >
-                        <label for="female">female</label><br><br>
-                        <input type="radio" name="gender" value="female" > 
+                <input type="date" id="date" required><br><br>
+                    <div class="gender-main">
+                        <label for="">Gender:  </label>
+                        <div class="gender">
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" value="male" >
+                        </div>
+                        <div class="gender">
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" value="female" >
+                        </div>
                     </div>
                 <label for="phone">phone: </label>
                 <input type="phone" name="phone" id="phone" required><br><br>
